@@ -6,48 +6,34 @@
 - **Mã sinh viên:** 24810320038
 - **Tên Đề tài / Bài tập:** Tích hợp 3 ứng dụng WinForms: Bài 5.3 (POS Cà phê), Bài 5.4 (Quản lý Khách sạn) và Bài 5.5 (Quản lý Xuất - Nhập Kho) trong cùng một Solution kiến trúc 3 lớp (3-Tier Architecture).
 
----
-
-# BÁO CÁO BÀI TẬP LỚN - HỆ THỐNG QUẢN LÝ TỔNG HỢP (3-TIER ARCHITECTURE)
-
-## MỤC 1: THÔNG TIN SINH VIÊN
-
-- **Họ và tên sinh viên:** Nguyễn Tiến Nhật Minh
-- **Mã sinh viên:** 24810320038
-- **Tên Đề tài / Bài tập:** Tích hợp 3 ứng dụng WinForms: Bài 5.3 (POS Cà phê), Bài 5.4 (Quản lý Khách sạn) và Bài 5.5 (Quản lý Xuất - Nhập Kho) trong cùng một Solution kiến trúc 3 lớp (3-Tier Architecture).
-
----
-
-## CẤU TRÚC THƯ MỤC DỰ ÁN (3-TIER ARCHITECTURE)
-
-````text
 baitapngay3010/
 ├── Database/
-│   └── ScriptDB.sql             # Script SQL khởi tạo 3 CSDL và dữ liệu mẫu
-├── images/                      # Thư mục lưu trữ hình ảnh báo cáo
-│   ├── 01_main_screen.png
-│   ├── 02_53_screen.png
-│   ├── 03_54_screen.png
-│   ├── 04_55_screen.png
-│   └── 05_sql_screen.png
-├── src/                         # Thư mục mã nguồn C#
-│   ├── DTO/                     # Data Transfer Objects (AppDTO.cs)
-│   │   └── AppDTO.cs
-│   ├── DAL/                     # Data Access Layer (DatabaseHelper.cs, AppDAL.cs)
-│   │   ├── DatabaseHelper.cs
-│   │   └── AppDAL.cs
-│   ├── BUS/                     # Business Logic Layer (AppBUS.cs)
-│   │   └── AppBUS.cs
-│   ├── Forms/                   # Presentation Layer - GUI Forms
-│   │   ├── FormMain.cs
-│   │   ├── FormCafe.cs
-│   │   ├── FormHotel.cs
-│   │   └── FormInventory.cs
-│   ├── Program.cs               # Khởi chạy ứng dụng
-│   └── hoccsharp.csproj         # File cấu hình dự án C#
-├── README.md                    # File báo cáo chi tiết dự án
-└── hoccsharp.sln                # File Solution của Visual Studio
+│ └── ScriptDB.sql # Script SQL khởi tạo 3 CSDL và dữ liệu mẫu
+├── images/ # Thư mục lưu trữ hình ảnh báo cáo
+│ ├── 01_main_screen.png
+│ ├── 02_53_screen.png
+│ ├── 03_54_screen.png
+│ ├── 04_55_screen.png
+│ └── 05_sql_screen.png
+├── src/ # Thư mục mã nguồn C#
+│ ├── DTO/ # Data Transfer Objects (AppDTO.cs)
+│ │ └── AppDTO.cs
+│ ├── DAL/ # Data Access Layer (DatabaseHelper.cs, AppDAL.cs)
+│ │ ├── DatabaseHelper.cs
+│ │ └── AppDAL.cs
+│ ├── BUS/ # Business Logic Layer (AppBUS.cs)
+│ │ └── AppBUS.cs
+│ ├── Forms/ # Presentation Layer - GUI Forms
+│ │ ├── FormMain.cs
+│ │ ├── FormCafe.cs
+│ │ ├── FormHotel.cs
+│ │ └── FormInventory.cs
+│ ├── Program.cs # Khởi chạy ứng dụng
+│ └── hoccsharp.csproj # File cấu hình dự án C#
+├── README.md # File báo cáo chi tiết dự án
+└── hoccsharp.sln # File Solution của Visual Studio
 
+---
 
 ## MỤC 2: HƯỚNG DẪN CÀI ĐẶT & CHẠY DỰ ÁN
 
@@ -75,7 +61,6 @@ baitapngay3010/
 
 ## MỤC 3: HÌNH ẢNH KẾT QUẢ CÁC MÀN HÌNH CHỨC NĂNG
 
-
 1.  ![Màn hình chính](images/01_main_screen.png)
 
 2.  ![Màn hình 5.3](images/02_53_screen.png)
@@ -85,4 +70,3 @@ baitapngay3010/
 4.  ![Màn hình 5.5](images/04_55_screen.png)
 
 5.  ![Màn hình SQL](images/05_sql_screen.png)
-````
